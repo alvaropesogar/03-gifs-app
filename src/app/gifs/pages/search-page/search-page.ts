@@ -2,7 +2,6 @@ import { Component, inject, signal } from '@angular/core';
 import { GifList } from '../../components/gif-list/gif-list';
 import { GifService } from '../../services/gif.service';
 import { Gif } from '../../interfaces/gif.interface';
-import { GifMapper } from '../../mapper/gif.mapper';
 
 @Component({
   selector: 'app-search-page',
